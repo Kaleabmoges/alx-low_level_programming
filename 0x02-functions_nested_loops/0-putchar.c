@@ -6,22 +6,26 @@
  */
 
 int main(void)
-
 {
+	
+	_putchar('_');
 
-		int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	_putchar('p');
 
-		int count, sz;
+	_putchar('u');
 
-		sz = sizeof(str) / sizeof(int);
+	_putchar('t');
 
-		for (count = 0; count < sz; count++)
+	_putchar('c');
 
-		{
-													_putchar(str[count]);
-		}
-		_putchar('\n');
-			
-		return (0);
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
+
+	_putchar('\n');
+
+	return (0);
 
 }
