@@ -1,12 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*
- * File: main.h
- * AUth: Kaleab Argaw
- * Desc: Header file containing prototypes for all functions
- *       written in the 0x13-bit_manipulation directory.
- */
+#include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
